@@ -3,8 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #3aa;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-size: 16px;
+    max-width: 1000px;
+    align-content: center;
+    background-color: cornsilk;
 }
 
 .container {
@@ -38,4 +41,16 @@ body {
 
 .post {
     padding: 1em;
+}
+
+footer {
+    background: gray;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 700px;
+    padding: 0.5em;
 }
